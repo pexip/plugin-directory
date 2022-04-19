@@ -1,0 +1,17 @@
+{
+  "id": "directory-plugin-1.0",
+  "name": "directory",
+  "description": "Invite guests through local directory",
+  "version": 1.0,
+  "srcURL": "directory.plugin.js",
+  "allowUnload": true,
+  "platforms": ["web", "electron", "ios", "android"],
+  "participantRoles": ["chair"],
+  "menuItems": {
+    "toolbar": [{
+      "icon": "assets/images/directory.svg#directory",
+      "label": "Invite contacts",
+      "action": "showDialog"
+    }]
+  }
+}

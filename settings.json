@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "id": "directory-plugin-1.0",
+      "srcURL": "plugins/directory/directory.plugin.package.json",
+      "enabled": true
+    }
+  ]
+}
